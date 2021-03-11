@@ -1,0 +1,96 @@
+.edit-detailss {
+    cursor: pointer;
+    font-weight: 100;
+    color: rgb(31, 29, 29);
+    position: relative;
+    font-weight: bolder;
+}
+
+.edit-details {
+    cursor: pointer;
+    font-weight: 100;
+    color: rgb(31, 29, 29);
+    position: relative;
+    font-weight: bolder;
+}
+
+.sliding-container {
+    background: rgb(255, 255, 255);
+    height: 85vh;
+    width: 100%;
+    position: fixed;
+    z-index: 900000000000;
+    transform: translateY(-670px);
+    transition: 0.5s ease-in-out;
+}
+
+.address-container {
+    margin: auto;
+    margin-top: 4rem;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.form-controll {
+   display: flex;
+   flex-direction: column;
+   max-height: 350px;
+}
+
+.address-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.info-flex {
+    display: flex;
+}
+
+.text-margin {
+    margin-right: 0.5rem;
+}
+
+.output {
+    margin-bottom: 2rem;
+    line-height: 25px;
+}
+
+.registerBox-btnn {
+    position: absolute;
+    bottom: 5%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1.1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    width: 50%;
+    left: 25%;
+}
+
+
+.registerBox-btnn:hover {
+    background-color: #434344;
+}
+
+@media(max-width: 768px) {
+    .sliding-container {
+        background: rgb(255, 255, 255);
+        height: 85vh;
+        width: 100%;
+        position: fixed;
+        z-index: 900000000000;
+        transform: translateY(-670px);
+        transition: 0.5s ease-in-out;
+    }
+
+}
+
+@media (max-width: 500px) {
+  
+}
+

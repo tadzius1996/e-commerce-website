@@ -1,0 +1,32 @@
+
+.user {
+    margin-bottom: 2rem;
+}
+
+.error-warning {
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    top: 0rem;
+    left: 35%;
+}
+
+.registerr {
+    position: absolute;
+    top: 5%;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    width: 50%;
+    left: 25%;
+    font-size: 1.2rem;
+}
+
+.close-btnn {
+    position: absolute;
+    top: 5%;
+    right: 25%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

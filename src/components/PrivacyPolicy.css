@@ -1,0 +1,24 @@
+.policy {
+    font-size: 4rem;
+    position: fixed;
+    margin-left: 1rem;
+}
+
+.container-policy {
+    max-width: 1150px;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.policy-title {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.policy-text {
+    margin-top: 0.5rem;
+    margin-left: 19rem;
+    line-height: 30px;
+    margin-right: 1rem;
+}

@@ -1,0 +1,220 @@
+
+.login-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 12%;
+    margin-right: 0.8rem;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #152233;
+}
+
+.create-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 30%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.container-holder {
+    position: relative;
+    overflow: hidden;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.profile-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.board {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.board-text {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+
+.account-btns {
+    display: flex;
+}
+
+.my-profile {
+    font-size: 2rem;
+}
+
+.login-box {
+    background-color: rgb(255, 255, 255);
+    left:0;
+    width: 210vh;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0;
+    padding-top: 1rem;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+    transform: translateY(-900px);
+    position: fixed;
+    
+}
+
+.login-text {
+    margin-top: 6rem;
+    padding: 3rem;
+}
+
+.accountBox-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginBox-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    margin-right: 0.8rem;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.loginBox-btn:hover {
+    background-color: #152233;
+}
+
+.createBox-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 0.7rem;
+}
+
+.createBox-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.box-text {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    line-height: 25px;
+}
+
+.box-board {
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-btn {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.profile-item {
+    margin-bottom: 1rem;
+}
+
+.welcome {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.profile-art {
+    position: absolute;
+    top: 60%;
+    z-index: -1;
+    right: 20%;
+}
+
+.board-text {
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+
+    .profile-container {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 4rem;
+    }
+
+    .container-holder {
+        position: relative;
+        overflow: hidden;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .profile-text {
+        margin-top: 4rem;
+
+    }
+
+    .board {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+    
+    .board-text {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+    .my-pro-file {
+        position: fixed;
+        top: 0;
+        right: 12%;
+        font-size: 4rem;
+        margin-top: 8rem;
+    }
+
+    .profile-art {
+        display: none;;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+  
+}
