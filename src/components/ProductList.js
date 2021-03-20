@@ -9,7 +9,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const ProductList = () => {
-  const url = 'https://fakestoreapi.com/products';
+  const proxy = 'https://cors-anywhere.herokuapp.com/';
+  const url = 'https://cors-anywhere.herokuapp.com/https://fakestoreapi.com/products';
   const [products, setProducts] = useState({data: null});
   const [search, setSearch] = useState('');
   const [cartItems, setCartItems] = useState([]);
