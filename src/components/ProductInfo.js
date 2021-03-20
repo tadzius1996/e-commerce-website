@@ -17,7 +17,7 @@ const ProductInfo = () => {
     const {id} = useParams();
     const [product, setProduct] = useState({data: null});
     const [open, setOpen] = useState(false);
-    const url = `https://cors-anywhere.herokuapp.com/https://fakestoreapi.com/products/${id}`
+    const url = `https://secret-ocean-49799.herokuapp.com/https://fakestoreapi.com/products/${id}`
     const {onAdd} = useGlobalProvider();
     const [message, setMessage] = useState(false);
     const [loading, setLoading] = useState(false);

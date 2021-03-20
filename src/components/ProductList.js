@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 
 const ProductList = () => {
   const proxy = 'https://cors-anywhere.herokuapp.com/';
-  const url = 'https://cors-anywhere.herokuapp.com/https://fakestoreapi.com/products';
+  const url = 'https://secret-ocean-49799.herokuapp.com/https://fakestoreapi.com/products';
   const [products, setProducts] = useState({data: null});
   const [search, setSearch] = useState('');
   const [cartItems, setCartItems] = useState([]);
@@ -41,7 +41,7 @@ const ProductList = () => {
 
   if(products.data){
       content = products.data.filter((product) => {
-          if (search == '') {
+          if (search === '') {
               return product
           } else if (product.title.toLowerCase().includes(search.toLowerCase())) {
               return product
